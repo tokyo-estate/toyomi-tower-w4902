@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>ザ 豊海タワー マリン＆スカイ W4902｜販売資料</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--gold:#c9a962;--gold2:#d9bf7a;--dark:#0b0d10;--paper:#f4f1ea;--paper2:#ebe6dc;--ink:#1b1b1b;--mute:#6d675d;--line:#d8d2c6}
+@page{size:A4;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;color:var(--ink);background:#fff;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+html[lang="zh"] body{font-family:"PingFang SC","Hiragino Sans GB","Noto Sans SC",sans-serif}
+html[lang="en"] body{font-family:"Helvetica Neue","Hiragino Sans",sans-serif}
+.page{width:210mm;height:297mm;overflow:hidden;position:relative;page-break-after:always;padding:14mm 14mm 12mm;background:var(--paper)}
+.page:last-child{page-break-after:auto}
+.page.dark{background:var(--dark);color:#fff}
+.page.paper2{background:var(--paper2)}
+.no{display:flex;align-items:center;gap:4mm;font-size:7.5pt;font-weight:500;letter-spacing:.34em;color:var(--gold);text-transform:uppercase}
+.no::before{content:"";width:9mm;height:1px;background:var(--gold)}
+h2{font-size:17pt;font-weight:300;letter-spacing:.08em;line-height:1.45;margin:3mm 0 2.5mm}
+.dark h2{color:#fff}
+.lead{font-size:8.5pt;line-height:1.75;color:var(--mute);max-width:150mm}
+.dark .lead{color:#cfc9bd}
+.lead br.sp,h2 br.sp,.tag br.sp{display:none}
+img{display:block;width:100%;height:100%;object-fit:cover}
+.ph{position:relative;overflow:hidden;background:#222}
+.cap{font-size:7pt;color:var(--mute);margin-top:1.6mm;letter-spacing:.04em;line-height:1.4}
+.dark .cap{color:#b9b2a5}
+.cap .t{font-weight:500;color:var(--ink)}.dark .cap .t{color:#fff}
+.cap .d{display:block}
+.grid{display:grid;gap:4mm}
+.g2{grid-template-columns:1fr 1fr}.g3{grid-template-columns:1fr 1fr 1fr}
+.chips{display:flex;flex-wrap:wrap;gap:1.6mm 2mm;margin:3mm 0}
+.chips li{list-style:none;font-size:7.3pt;letter-spacing:.06em;padding:1.2mm 3mm;border:1px solid var(--line);border-radius:99px;color:var(--ink)}
+.dark .chips li,.cover .chips li{border-color:rgba(255,255,255,.45);color:#fff}
+.foot{position:absolute;left:14mm;right:14mm;bottom:7mm;display:flex;justify-content:space-between;font-size:6.5pt;letter-spacing:.2em;color:var(--mute);text-transform:uppercase}
+.dark .foot{color:#8f887c}
+/* cover */
+.cover{padding:0;background:#000}
+.cover .bg{position:absolute;inset:0}
+.cover .bg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.25) 0%,rgba(0,0,0,0) 30%,rgba(0,0,0,.15) 55%,rgba(0,0,0,.92) 100%)}
+.cover .in{position:absolute;left:14mm;right:14mm;bottom:16mm;color:#fff}
+.cover .en{font-size:8pt;letter-spacing:.36em;color:var(--gold2);text-transform:uppercase}
+.cover .num{font-size:64pt;font-weight:200;line-height:1;margin-top:3mm;letter-spacing:-.01em}
+.cover .num small{font-size:14pt;font-weight:300;letter-spacing:.2em;margin-left:3mm;color:var(--gold2)}
+.cover .tag{font-size:9.5pt;font-weight:300;letter-spacing:.12em;color:var(--gold2);margin-top:2.5mm}
+.cover h1{font-size:17pt;font-weight:400;letter-spacing:.14em;margin-top:3mm}
+.cover .price{display:flex;align-items:baseline;gap:3mm;margin-top:3mm;font-size:9pt;letter-spacing:.12em}
+.cover .price b{font-size:26pt;font-weight:700;color:var(--gold2);letter-spacing:.02em}
+.cover .price small{font-size:7.5pt;color:#cfc9bd}
+.keys{display:grid;grid-template-columns:repeat(6,1fr);border:1px solid rgba(255,255,255,.25);margin-top:5mm}
+.keys li{list-style:none;text-align:center;padding:3mm 1mm;border-right:1px solid rgba(255,255,255,.25)}
+.keys li:last-child{border-right:0}
+.keys .v{font-size:15pt;font-weight:200;line-height:1.1;white-space:nowrap}
+.keys .v small{font-size:7pt;letter-spacing:.1em;margin-left:.6mm;color:var(--gold2)}
+.keys .k{font-size:5.6pt;letter-spacing:.2em;color:#9b9488;margin-top:1.2mm;text-transform:uppercase}
+/* floor plan */
+.big{font-size:26pt;font-weight:200;line-height:1;letter-spacing:.02em;margin-top:2mm}
+.big small{font-size:8pt;letter-spacing:.1em;color:var(--mute);margin-left:2mm}
+.note{font-size:6.8pt;line-height:1.6;color:var(--mute);text-indent:-1em;padding-left:1em}
+.dark .note{color:#9b9488}
+/* floors */
+.floors{list-style:none;display:grid;grid-template-columns:1fr 1fr 1fr;gap:3mm;margin:3mm 0}
+.floors li{border:1px solid var(--line);padding:2.5mm 3mm;font-size:7pt;line-height:1.55}
+.floors .f{font-size:12pt;font-weight:200;color:var(--gold);line-height:1;margin-bottom:1.5mm}
+.floors .n span{display:block;font-weight:500}
+.floors .d{color:var(--mute);margin-top:1mm}
+/* access */
+.times{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:1.5mm 8mm;margin:3mm 0}
+.times li{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid rgba(255,255,255,.18);padding:1.4mm 0;font-size:8pt}
+.times .to small{font-size:6.5pt;color:var(--gold2);margin-left:1mm}
+.times .m{font-size:13pt;font-weight:200}.times .m small{font-size:6.5pt;margin-left:.5mm;color:var(--gold2)}
+/* outline */
+.tbl{width:100%;border-collapse:collapse;font-size:7pt;line-height:1.5}
+.tbl th,.tbl td{border-top:1px solid var(--line);padding:1.6mm 1.5mm;text-align:left;vertical-align:top}
+.tbl th{width:26mm;color:var(--gold);font-weight:500;letter-spacing:.06em;white-space:nowrap}
+.tbl b{font-size:9.5pt}
+</style>
+</head>
+<body>
+
+<!-- 表紙 -->
+<section class="page cover">
+  <div class="bg"><img src="../img/poster_sp.jpg" alt=""></div>
+  <div class="in">
+    <p class="en">The Toyomi Tower Marine &amp; Sky</p>
+    <p class="num">4902<small>49F</small></p>
+    <h1 data-i18n="t003">ザ 豊海タワー マリン＆スカイ</h1>
+    <p class="tag" data-i18n="t206">東京タワーと浜離宮を<br class="sp">一望する、天空の稀少住戸</p>
+    <ul class="chips">
+      <li data-i18n="t004">西ウイング 49階</li><li data-i18n="t005">北西向き</li><li>2LDK＋2WIC＋SIC</li><li data-i18n="t006">面積 85.03㎡</li><li data-i18n="t007">LDK 約24.9帖</li><li data-i18n="t008">2027年8月 引渡予定</li>
+    </ul>
+    <p class="price" data-i18n="t009"><span>販売価格</span><b>2億7,900万円</b><small>（税込）</small></p>
+    <ul class="keys">
+      <li><div class="v">49<small>F</small></div><div class="k">West Wing</div></li>
+      <li><div class="v">85.03<small>㎡</small></div><div class="k" data-i18n="t011">契約面積</div></li>
+      <li><div class="v">2<small>LDK</small></div><div class="k">Plan</div></li>
+      <li><div class="v" data-i18n="t012">北西<small>向き</small></div><div class="k">Direction</div></li>
+      <li><div class="v" data-i18n="t014">2,046<small>戸</small></div><div class="k">Residences</div></li>
+      <li><div class="v" data-i18n="t016">10<small>分</small></div><div class="k" data-i18n="t018">勝どき駅 徒歩</div></li>
+    </ul>
+  </div>
+</section>
+
+<!-- 01 Floor Plan -->
+<section class="page">
+  <p class="no">01 — Floor Plan</p>
+  <h2 data-i18n="t026">弧を描く窓辺に、<br>約24.9帖のLDK</h2>
+  <div class="ph" style="height:138mm;background:#fff;border:1px solid var(--line)"><img src="../img/u00_plan3d.jpg" style="object-fit:contain;background:#fff" alt=""></div>
+  <p class="cap"><span class="t" data-i18n="t024">3D間取図</span> <span data-i18n="t025">メニュープラン1・家具はイメージです</span></p>
+  <div class="big" data-i18n="t027">85.03<small>㎡（契約面積）</small></div>
+  <p class="note" style="text-indent:0;padding-left:0;margin-top:1mm" data-i18n="t029">専有面積（壁芯）84.10㎡<br class="sp">＋専有防災倉庫0.93㎡</p>
+  <ul class="chips">
+    <li data-i18n="t031">LDK 24.9帖</li><li data-i18n="t032">キッチン 3.3帖</li><li data-i18n="t033">主寝室 8.0帖</li><li data-i18n="t034">洋室 5.7帖</li><li data-i18n="t035">WIC 0.9・0.8帖</li><li data-i18n="t036">SIC 0.9帖</li><li data-i18n="t037">天井カセットエアコン</li><li data-i18n="t038">浴室 1418</li><li data-i18n="t039">天井高 約2.6m</li><li data-i18n="t040">バルコニー 7.34㎡</li><li data-i18n="t042">専有防災倉庫 0.93㎡</li>
+  </ul>
+  <p class="lead" data-i18n="t030">東京タワーへと弧を描く<br class="sp">ラウンドサッシが、<br class="sp">約24.9帖のリビングダイニングを<br class="sp">やわらかく抱きとめます。<br>主寝室と洋室には<br class="sp">それぞれウォークインクローゼット、<br class="sp">玄関には約0.9帖の<br class="sp">シューズインクローゼット。<br>LD・主寝室の天井高は約2.6m。<br class="sp">LDには天井カセットエアコン。<br>空へ、都心へ、視線がのびやかに。</p>
+  <div class="foot"><span>The Toyomi Tower Marine &amp; Sky — W4902</span><span>01</span></div>
+</section>
+
+<!-- 02 View -->
+<section class="page dark">
+  <p class="no">02 — View</p>
+  <h2 data-i18n="t043">49階、北西の永久眺望。<br>東京タワーと浜離宮、<br class="sp">No.1のシティビュー</h2>
+  <p class="lead" data-i18n="t044">正面に東京タワー、<br class="sp">眼下には浜離宮の深い緑。<br>汐留の摩天楼から<br class="sp">築地の新しい街並みまで、<br class="sp">都心のすべてが<br class="sp">この窓に集まります。<br>夕暮れには東京タワーが<br class="sp">茜色の空に浮かび、<br class="sp">やがて浜離宮の灯りと<br class="sp">都心の夜景がきらめきはじめます。</p>
+  <div class="ph" style="height:92mm;margin-top:4mm"><img src="../img/u26_view_day_ai.jpg" alt=""></div>
+  <p class="cap"><span class="t" data-i18n="t045">昼の眺望（イメージ）</span><span class="d" data-i18n="t046">東京タワー・浜離宮・築地方面（AI生成イメージ）</span></p>
+  <div class="ph" style="height:92mm;margin-top:4mm"><img src="../img/u27_view_dusk_cg.jpg" alt=""></div>
+  <p class="cap"><span class="t" data-i18n="t047">夜景の眺望（イメージ）</span><span class="d" data-i18n="t048">ライトアップした東京タワーと浜離宮の夜景（AI生成イメージ）</span></p>
+  <div class="foot"><span>The Toyomi Tower Marine &amp; Sky — W4902</span><span>02</span></div>
+</section>
+
+<!-- 03 Living -->
+<section class="page">
+  <p class="no">03 — Living Dining</p>
+  <h2 data-i18n="t049">東京タワーを正面に、<br>約24.9帖のリビング</h2>
+  <p class="lead" data-i18n="t050">ラウンドサッシの向こうに、<br class="sp">東京タワーと浜離宮の緑。<br>昼は光に満ち、<br class="sp">夜は都心の灯りに包まれる<br class="sp">空間のイメージです。</p>
+  <div class="ph" style="height:100mm;margin-top:5mm"><img src="../img/u02_ldk_ai_day.jpg" alt=""></div>
+  <p class="cap"><span class="t" data-i18n="t051">リビングダイニング 昼（イメージパース）</span><span class="d" data-i18n="t052">AI生成・家具と内装はイメージです</span></p>
+  <div class="ph" style="height:100mm;margin-top:4mm"><img src="../img/u01_ldk_ai_bridge.jpg" alt=""></div>
+  <p class="cap"><span class="t" data-i18n="t053">リビングダイニング 夜景（イメージパース）</span><span class="d" data-i18n="t052">AI生成・家具と内装はイメージです</span></p>
+  <div class="foot"><span>The Toyomi Tower Marine &amp; Sky — W4902</span><span>03</span></div>
+</section>
+
+<!-- 04 Entrance & Residence -->
+<section class="page dark">
+  <p class="no">04 — Entrance &amp; Residence</p>
+  <h2 data-i18n="t054">水辺に立ち上がる、<br>2棟のタワー</h2>
+  <p class="lead" data-i18n="t055">浜離宮の緑の先に、金色の帯をまとった2棟が空へのびる。波と緑をかたどった3階建の基壇部が両棟を結び、3階のエントランスホールではコンシェルジュが迎えます。</p>
+  <div class="ph" style="height:92mm;margin-top:4mm"><img src="../img/r01b_ext_day.jpg" alt=""></div>
+  <p class="cap"><span class="t" data-i18n="t056">外観</span><span class="d" data-i18n="t057">地上53階建・総戸数2,046戸（AI生成イメージ）</span></p>
+  <div class="grid g3" style="margin-top:4mm">
+    <div><div class="ph" style="height:46mm"><img src="../img/r03_approach.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t058">エントランスアプローチ</span></p></div>
+    <div><div class="ph" style="height:46mm"><img src="../img/r06_escalator.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t060">エントランスのエスカレーター</span></p></div>
+    <div><div class="ph" style="height:46mm"><img src="../img/c14_concierge.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t062">3F エントランスホール</span></p></div>
+    <div><div class="ph" style="height:46mm"><img src="../img/c15_ev_hall.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t064">エレベーターホール</span></p></div>
+    <div><div class="ph" style="height:46mm"><img src="../img/c16_corridor.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t066">内廊下</span></p></div>
+    <div><div class="ph" style="height:46mm"><img src="../img/r04_entrance_night.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t068">エントランス 夜景</span></p></div>
+  </div>
+  <div class="foot"><span>The Toyomi Tower Marine &amp; Sky — W4902</span><span>04</span></div>
+</section>
+
+<!-- 05 Common Space 1 -->
+<section class="page">
+  <p class="no">05 — Common Space</p>
+  <h2 data-i18n="t074">ホテルのような、<br>ラグジュアリーな共用空間</h2>
+  <p class="lead" data-i18n="t075">東京タワーを望む51階のスカイスパ、2層吹抜けのスカイラウンジ、ゲストルーム、ラウンジ、テラス。暮らしの延長に、上質なもてなしの時間を。</p>
+  <div class="ph" style="height:92mm;margin-top:4mm"><img src="../img/c01_sky_lounge.jpg" alt=""></div>
+  <p class="cap"><span class="t" data-i18n="t086">51・52F スカイラウンジ</span><span class="d" data-i18n="t087">2層吹抜け、バーカウンター付き</span></p>
+  <div class="grid g2" style="margin-top:4mm">
+    <div><div class="ph" style="height:50mm"><img src="../img/c21_sky_bar.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t088">スカイラウンジ バー</span></p></div>
+    <div><div class="ph" style="height:50mm"><img src="../img/c19_sky_lounge_ext.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t090">スカイラウンジ 外観</span></p></div>
+    <div><div class="ph" style="height:50mm"><img src="../img/c20_sky_lounge_sofa.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t092">スカイラウンジ ソファ席</span></p></div>
+    <div><div class="ph" style="height:50mm"><img src="../img/c02_sky_spa.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t094">51F スカイスパゲスト</span></p></div>
+  </div>
+  <div class="foot"><span>The Toyomi Tower Marine &amp; Sky — W4902</span><span>05</span></div>
+</section>
+
+<!-- 06 Common Space 2 -->
+<section class="page dark">
+  <p class="no">06 — Common Space</p>
+  <ul class="floors">
+    <li><div class="f">51・52F</div><div class="n"><span data-i18n="t076">スカイラウンジ</span><span data-i18n="t077">スカイパーティーラウンジ</span><span data-i18n="t078">スカイスパゲスト</span></div><div class="d" data-i18n="t079">2層吹抜けのラウンジ、オープンデッキ、サウナ付きゲストルーム</div></li>
+    <li><div class="f">3F</div><div class="n"><span data-i18n="t080">ウエスト／イーストラウンジ</span><span data-i18n="t081">オープンテラス・ライブラリー</span><span data-i18n="x009">フィットネス・ゴルフレンジ</span></div><div class="d" data-i18n="t082">個室ブース、プレイルーム、5つのゲストルーム、コンシェルジュ、コンビニ</div></li>
+    <li><div class="f">2F</div><div class="n"><span data-i18n="t083">ファミリーパーティールーム</span><span data-i18n="t084">キッズスペース</span><span data-i18n="x010">ミュージックスタジオ</span></div><div class="d" data-i18n="t085">24時間ランドリー、保育園</div></li>
+  </ul>
+  <div class="grid g3">
+    <div><div class="ph" style="height:46mm"><img src="../img/c03_west_lounge.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t096">3F ウエストラウンジ</span></p></div>
+    <div><div class="ph" style="height:46mm"><img src="../img/c04_terrace.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t098">3F オープンテラス</span></p></div>
+    <div><div class="ph" style="height:46mm"><img src="../img/c05_terrace_evening.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t102">3F オープンテラス 夕景</span></p></div>
+    <div><div class="ph" style="height:46mm"><img src="../img/c08_library.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t100">3F ライブラリー</span></p></div>
+    <div><div class="ph" style="height:46mm"><img src="../img/c06_fitness.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t103">3F フィットネスルーム</span></p></div>
+    <div><div class="ph" style="height:46mm"><img src="../img/c07_golf.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t105">3F ゴルフレンジ</span></p></div>
+    <div><div class="ph" style="height:46mm"><img src="../img/c09_play.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t106">3F プレイルーム</span></p></div>
+    <div><div class="ph" style="height:46mm"><img src="../img/c10_east_lounge.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t108">3F イーストラウンジ</span></p></div>
+    <div><div class="ph" style="height:46mm"><img src="../img/c11_guest_cave.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t110">3F ゲストルーム</span> <span data-i18n="t111">海辺のケーブハウス</span></p></div>
+    <div><div class="ph" style="height:46mm"><img src="../img/c12_guest_iki.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t110">3F ゲストルーム</span> <span data-i18n="t112">海辺の和旅館</span></p></div>
+    <div><div class="ph" style="height:46mm"><img src="../img/c13_guest_glamping.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t110">3F ゲストルーム</span> <span data-i18n="t113">海辺のキャンプ</span></p></div>
+    <div><div class="ph" style="height:46mm"><img src="../img/r10_lawn_plaza.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t204">3F 芝生広場</span> <span data-i18n="t205">エントランス前のグリーン</span></p></div>
+  </div>
+  <div class="foot"><span>The Toyomi Tower Marine &amp; Sky — W4902</span><span>06</span></div>
+</section>
+
+<!-- 07 Location & Tsukiji -->
+<section class="page">
+  <p class="no">07 — Location</p>
+  <h2 data-i18n="t114">勝どき駅徒歩10分、<br>海と向き合う豊海</h2>
+  <p class="lead" data-i18n="t115">銀座まで約1.8km。<br class="sp">隣には小学校と運動公園、<br class="sp">対岸には浜離宮と築地。<br>都心を手の内にしながら、<br class="sp">水辺の開放感を日常に。<br>中央区、豊海のアドレスです。</p>
+  <div class="ph" style="height:86mm;margin-top:4mm"><img src="../img/l08_aerial_night.jpg" alt=""></div>
+  <p class="cap"><span class="t" data-i18n="t116">豊海・勝どきの空撮</span></p>
+  <div class="grid g3" style="margin-top:3mm">
+    <div><div class="ph" style="height:30mm"><img src="../img/l02_site.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t118">現地周辺の水辺</span> <span data-i18n="t119">徒歩5分</span></p></div>
+    <div><div class="ph" style="height:30mm"><img src="../img/l03_hamarikyu.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t122">浜離宮恩賜庭園</span> <span data-i18n="t123">約1,680m（AI生成イメージ）</span></p></div>
+    <div><div class="ph" style="height:30mm"><img src="../img/l04_kachidoki_bridge.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t120">勝鬨橋と隅田川テラス</span> <span data-i18n="t121">徒歩11分</span></p></div>
+  </div>
+  <p class="no" style="margin-top:5mm">Future of Tsukiji</p>
+  <h2 style="font-size:12.5pt;margin:2mm 0 1.5mm" data-i18n="t130">対岸の築地が、<br>生まれ変わる</h2>
+  <p class="lead" style="font-size:7.5pt" data-i18n="t131">築地地区まちづくり事業。約5万人を迎えるマルチスタジアムと約10haの水辺空間が、2030年代前半のまちびらきへ。対岸の夜景も、これから変わりはじめます。</p>
+  <div class="grid g2" style="margin-top:3mm">
+    <div><div class="ph" style="height:38mm"><img src="../img/f01_tsukiji_main.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t132">築地地区まちづくり事業 完成予想CG</span> <span data-i18n="t133">現地から徒歩13分・約980m（AI生成イメージ）</span></p></div>
+    <div><div class="ph" style="height:38mm"><img src="../img/f02_tsukiji_stadium.jpg" alt=""></div><p class="cap"><span class="t" data-i18n="t134">マルチスタジアム</span> <span data-i18n="t135">約5万人収容・屋内全天候型（AI生成イメージ）</span></p></div>
+  </div>
+  <div class="foot"><span>The Toyomi Tower Marine &amp; Sky — W4902</span><span>07</span></div>
+</section>
+
+<!-- 08 Access -->
+<section class="page dark">
+  <p class="no">08 — Access</p>
+  <h2 data-i18n="t144">「勝どき」駅から</h2>
+  <p class="lead" data-i18n="t145">都営大江戸線で汐留・六本木へ直通。<br>徒歩3分のバス停、<br class="sp">徒歩6分の東京BRTも、<br class="sp">日々の選択肢に。</p>
+  <ul class="times">
+    <li><div class="to" data-i18n="x001">「汐留」駅</div><div class="m">5<small data-i18n="t017">分</small></div></li>
+    <li><div class="to" data-i18n="x006">勝どき駅前 <small>バス</small></div><div class="m">5<small data-i18n="t017">分</small></div></li>
+    <li><div class="to" data-i18n="x002">「銀座一丁目」駅</div><div class="m">8<small data-i18n="t017">分</small></div></li>
+    <li><div class="to" data-i18n="x007">銀座四丁目 <small>バス</small></div><div class="m">16<small data-i18n="t017">分</small></div></li>
+    <li><div class="to" data-i18n="x003">「有楽町」駅</div><div class="m">10<small data-i18n="t017">分</small></div></li>
+    <li><div class="to" data-i18n="x008">東京駅丸の内南口 <small>バス</small></div><div class="m">25<small data-i18n="t017">分</small></div></li>
+    <li><div class="to" data-i18n="x004">「六本木」駅</div><div class="m">14<small data-i18n="t017">分</small></div></li>
+    <li><div class="to" data-i18n="x005">「東京」駅</div><div class="m">19<small data-i18n="t017">分</small></div></li>
+  </ul>
+  <div class="grid" style="grid-template-columns:108mm 1fr;margin-top:4mm">
+    <div><div class="ph" style="height:86mm;background:#fff"><img src="../img/a03_route_map.png" style="object-fit:contain;background:#fff" alt=""></div><p class="cap"><span class="t" data-i18n="t148">路線図</span><span class="d" data-i18n="t149">勝どき駅から主要駅へ</span></p></div>
+    <div><div class="ph" style="height:86mm;background:#fff"><img src="../img/a01_bus_map.jpg" style="object-fit:contain;background:#fff" alt=""></div><p class="cap"><span class="t" data-i18n="t150">バス路線</span><span class="d" data-i18n="t151">銀座・東京駅方面</span></p></div>
+  </div>
+  <p class="note" style="margin-top:4mm" data-i18n="t147">※電車の所要時間は「勝どき」駅からの通勤時のもので、乗り換え・待ち時間を含みます（出典：公式サイト）。バスは徒歩3分の「山九本社前」等のバス停から平日7:30〜9:00着の所要時間（Yahoo!路線情報、2024年8月時点）。東京BRT「勝どきBRT」停留所は徒歩6分。車は環状2号線で築地・新橋・虎ノ門へ。</p>
+  <div class="foot"><span>The Toyomi Tower Marine &amp; Sky — W4902</span><span>08</span></div>
+</section>
+
+<!-- 09 Outline -->
+<section class="page paper2">
+  <p class="no">09 — Outline</p>
+  <h2 data-i18n="t152">物件概要</h2>
+  <div class="grid" style="grid-template-columns:92mm 1fr;gap:5mm;align-items:start;margin-top:1mm">
+    <div>
+      <div class="ph" style="height:70mm;background:#fff;border:1px solid var(--line)"><img src="../img/u00_plan2d.jpg" style="object-fit:contain;background:#fff" alt=""></div>
+      <p class="cap"><span class="t" data-i18n="t153">間取図</span><span class="d" data-i18n="t154">2LDK＋2WIC＋SIC（W-84Bnw1 メニュープラン1）</span></p>
+      <table class="tbl" style="margin-top:3mm">
+        <tr><th data-i18n="t175">駐車場</th><td data-i18n="t176">敷地内 機械式650台・平面18台（抽選・別途契約）</td></tr>
+        <tr><th data-i18n="t177">構造・規模</th><td data-i18n="t178">鉄筋コンクリート造一部鉄骨造 地上53階地下1階建（制震・制振構造）</td></tr>
+        <tr><th data-i18n="t179">総戸数</th><td data-i18n="t180">2,046戸</td></tr>
+        <tr><th data-i18n="t181">竣工・引渡</th><td data-i18n="t182">2026年11月下旬 竣工予定 ／ 2027年8月 引渡予定</td></tr>
+        <tr><th data-i18n="t183">管理費</th><td data-i18n="t184">33,840円／月</td></tr>
+        <tr><th data-i18n="t185">修繕積立金</th><td data-i18n="t186">14,710円／月</td></tr>
+        <tr><th data-i18n="t187">その他費用</th><td data-i18n="t188">インターネット等使用料 715円／月、修繕積立基金 1,471,000円（引渡時）</td></tr>
+        <tr><th data-i18n="t189">敷地の権利</th><td data-i18n="t190">所有権</td></tr>
+        <tr><th data-i18n="t191">用途地域</th><td data-i18n="t192">準工業地域</td></tr>
+        <tr><th data-i18n="t193">施工・管理</th><td data-i18n="t194">施工 清水建設株式会社 ／ 管理 三井不動産レジデンシャルサービス株式会社（常駐）</td></tr>
+      </table>
+    </div>
+    <table class="tbl">
+      <tr><th data-i18n="t155">物件名</th><td data-i18n="t156">ザ 豊海タワー マリン＆スカイ　W4902号室</td></tr>
+      <tr><th data-i18n="t157">販売価格</th><td data-i18n="t158"><b>2億7,900万円</b>（税込）</td></tr>
+      <tr><th data-i18n="t159">所在地</th><td data-i18n="t160">東京都中央区豊海町41番（地番）</td></tr>
+      <tr><th data-i18n="t161">交通</th><td data-i18n="t162">都営大江戸線「勝どき」駅 徒歩10分</td></tr>
+      <tr><th data-i18n="t163">所在階 / 向き</th><td data-i18n="t164">西ウイング 49階 ／ 北西向き</td></tr>
+      <tr><th data-i18n="t165">間取り</th><td data-i18n="t166">2LDK＋2WIC＋SIC（W-84Bnw1タイプ・メニュープラン1）</td></tr>
+      <tr><th data-i18n="t011">契約面積</th><td data-i18n="t167">85.03㎡<br>※専有面積（壁芯）84.10㎡＋専有防災倉庫0.93㎡</td></tr>
+      <tr><th data-i18n="t168">バルコニー</th><td>7.34㎡</td></tr>
+      <tr><th data-i18n="t169">付帯</th><td data-i18n="t170">専有防災倉庫 0.93㎡</td></tr>
+      <tr><th data-i18n="t171">天井高</th><td data-i18n="t172">LD・主寝室 約2.6m（下り天井・梁下部分を除く）</td></tr>
+      <tr><th data-i18n="t173">眺望</th><td data-i18n="t174">東京タワー・浜離宮・築地・<br>北西方向</td></tr>
+    </table>
+  </div>
+  <div style="margin-top:4mm">
+    <p class="note" data-i18n="t195">※本物件は2026年10月現在建築中です。掲載の外観・共用部・周辺の画像は完成予想CGで、実際とは異なる場合があります。眺望の写真・CGは現地相当の高さから撮影・制作したもので、本住戸からの眺望とは異なります。</p>
+    <p class="note" data-i18n="t196">※管理費・修繕積立金等は分譲時の管理費等一覧表（予定）に基づく月額です。正確な金額は重要事項説明書にてご確認ください。</p>
+    <p class="note" data-i18n="t197">※リビングのイメージパース、昼・夜景の眺望、外観・浜離宮・スカイラウンジ・築地再開発の一部画像、24時間タイムラプス動画、外観・共用部の動画はAI生成（完成予想CGをもとに制作）で、家具・内装・外装の色調はイメージです。</p>
+    <p class="note" data-i18n="t202">※掲載内容は2026年10月現在のものです。共用施設・サービスの内容は管理規約等に従い、変更となる場合があります。家具・調度品は販売価格に含まれません。</p>
+  </div>
+  <div class="foot"><span>The Toyomi Tower Marine &amp; Sky — W4902</span><span>09</span></div>
+</section>
+
+<!-- 裏表紙 -->
+<section class="page cover">
+  <div class="bg"><img src="../img/r01_ext_dusk.jpg" style="object-position:50% 40%" alt=""></div>
+  <div class="in">
+    <p class="en">The Toyomi Tower Marine &amp; Sky — W4902</p>
+    <h2 style="font-size:22pt;margin-top:3mm" data-i18n="t198">東京タワーと浜離宮を、<br>ひとり占めする窓辺へ。</h2>
+    <ul class="chips">
+      <li data-i18n="t004">西ウイング 49階</li><li data-i18n="t005">北西向き</li><li>2LDK＋2WIC＋SIC</li><li data-i18n="t200">契約面積 85.03㎡</li><li data-i18n="t007">LDK 約24.9帖</li><li data-i18n="t008">2027年8月 引渡予定</li>
+    </ul>
+    <p class="price" data-i18n="t009"><span>販売価格</span><b>2億7,900万円</b><small>（税込）</small></p>
+    <p style="font-size:7pt;color:#b9b2a5;margin-top:5mm;letter-spacing:.06em">https://tokyo-estate.github.io/toyomi-tower-w4902/</p>
+  </div>
+</section>
+
+<script>
+window.applyLang=function(dic,l){
+  document.documentElement.lang=l;
+  document.querySelectorAll('[data-i18n]').forEach(function(e){var id=e.getAttribute('data-i18n');if(l!=='ja'&&dic[l]&&dic[l][id])e.innerHTML=dic[l][id];});
+};
+</script>
+</body>
+</html>
